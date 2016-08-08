@@ -1,5 +1,7 @@
 # protractor-video-reporter
 
+This is a fork of https://github.com/tepez/protractor-video-reporter to support video capture on a MAC and other enhancements like automatically naming individual test case video filenames.
+
 A Jasmine 2 reporter that captures a screencast of Protractor specs running on a headless browser, e.g. under Xvfb.
 This is especially usefull for debugging you e2e specs on you CI server.
 The reporter also creates a SRT subtitles file to for the video so you can see which spec you are currently viewing and whether it passed or failed.
@@ -59,4 +61,3 @@ The file will be saves to `baseDirectory/protractor-specs.srt`.
           '-vcodec', 'qtrle',
         ]
     ```
-
