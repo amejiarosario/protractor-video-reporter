@@ -16,6 +16,12 @@ You have to start Xvfb before starting Protractor and set the `DISPLAY` envirome
 
 If you're using Jenkins CI, you can use the [Xvfb plugin](https://wiki.jenkins-ci.org/display/JENKINS/Xvfb+Plugin) to easily achive that.
 
+On mac:
+
+```bash
+brew install ffmpeg
+```
+
 # Usage
 
 In the protractor configuration file:
